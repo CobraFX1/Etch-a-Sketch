@@ -28,8 +28,8 @@ document.addEventListener("mouseover", function (event) {
     event.target.style.backgroundColor = "black";
   }
 });
-document.addEventListener("mouseout", function (event) {
-  if (event.target.classList.contains("box")) {
-    event.target.style.backgroundColor = "white";
-  }
-});
+// document.addEventListener("mouseout", function (event) {
+//   if (event.target.classList.contains("box")) {
+//     event.target.style.backgroundColor = "white";
+//   }
+// });
