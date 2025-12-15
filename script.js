@@ -17,6 +17,8 @@
  */
 let divContainer = document.querySelector("div");
 divContainer.classList.add("container");
+let button = document.createElement("button");
+document.body.prepend(button);
 let newDiv;
 for (let i = 1; i <= 256; i++) {
   newDiv = document.createElement("div");
@@ -28,8 +30,12 @@ document.addEventListener("mouseover", function (event) {
     event.target.style.backgroundColor = "black";
   }
 });
-// document.addEventListener("mouseout", function (event) {
-//   if (event.target.classList.contains("box")) {
-//     event.target.style.backgroundColor = "white";
-//   }
-// });
+/**
+ * Next step
+ * add a button at the top of the screen
+ * on click event a popup would be sent asking for number of squares
+ * once enter is clicked the existing grid would b removed
+ * nw grid should be generated in the same spac
+ * max should be 100
+ * the elements should somehow resize
+ */
