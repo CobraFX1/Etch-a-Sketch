@@ -1,6 +1,14 @@
-.box {
+* {
+  box-sizing: border-box;
+}
+.initial {
+  box-sizing: border-box;
   width: 25px;
   height: 25px;
+  border: 1px solid black;
+}
+.box {
+  box-sizing: border-box;
   border: 1px solid black;
 }
 .container {
@@ -8,7 +16,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 432px;
+  width: 400px;
 }
 .hover {
   background-color: aqua;
@@ -25,4 +33,5 @@ body {
   gap: 20px;
   align-items: center;
   justify-content: center;
+  box-sizing: content-box;
 }
