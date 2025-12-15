@@ -18,6 +18,7 @@
 let divContainer = document.querySelector("div");
 divContainer.classList.add("container");
 let button = document.createElement("button");
+button.textContent = "Resize number of squares";
 document.body.prepend(button);
 let newDiv;
 for (let i = 1; i <= 256; i++) {
