@@ -9,10 +9,12 @@
  * let the class has the properties of a
  */
 let divContainer = document.querySelector("div");
-let div1 = document.createElement("div");
 divContainer.classList.add("container");
 for (let i = 1; i <= 256; i++){
     let newdiv = document.createElement("div");
     newdiv.classList.add("box");
     divContainer.appendChild(newdiv);
 }
+divContainer.addEventListener('mouseover', () => {
+    newD
+})
